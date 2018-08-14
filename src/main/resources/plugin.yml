@@ -1,0 +1,26 @@
+# PG v${project.version}
+# Copyright (c) 2018, Toranktto
+# All rights reserved.
+
+name: PG
+version: ${project.version}
+main: pl.toranktto.pg.PGPlugin
+softdepend: [WorldEdit,PlotSquared,LeaderHeads,MVdWPlaceholderAPI]
+author: Toranktto
+commands:
+    pg:
+        aliases: [poziomgroty]
+        description: Calculates level of plot.
+permissions:
+    pg.*:
+        default: op
+        children:
+            pg.admin: true
+    pg.admin:
+        children:
+            pg.calc: true
+            pg.top: true
+    pg.calc:
+        default: true
+    pg.top:
+        default: true

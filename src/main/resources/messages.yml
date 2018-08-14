@@ -1,0 +1,22 @@
+# PG v${project.version}
+# Copyright (c) 2018, Toranktto
+# All rights reserved.
+
+PG_USAGE: '&cUzycie: /pg [top]'
+PG_USAGE_ADMIN: '&cUzycie: /pg <top | reload [all | plots | config | messages] | version>'
+PG_TOP_GUI_NAME: '&b&lTop10 dzialek!'
+PG_TOP_GUI_MEMBER_ONLINE: '&2- &a%member%'
+PG_TOP_GUI_MEMBER_OFFLINE: '&2- &c%member%'
+PG_TOP_GUI_TRUSTED_ONLINE: '&2- &a%trusted%'
+PG_TOP_GUI_TRUSTED_OFFLINE: '&2- &c%trusted%'
+PG_TOP_GUI_HEAD: '&6%place%. &e%owner% &3(&b%level%&3)'
+PG_TOP_NOT_ENOUGH: '&cZbyt malo dzialek zeby wyswietlic wyniki!'
+PG_CALCULATING: '&7Liczenie... To moze potrwac kilka sekund.'
+PG_RESULT: '&7Poziom tej dzialki to &e%level% &6(&e%points% pkt&6)'
+PG_OTHER: '&7Ta dzialka należy do &e%owner%&7.'
+PG_FREEPLOT: '&cTa dzialka nie należy do nikogo!'
+PG_NOPLOT: '&cMusisz byc na dzialce!'
+PG_NOTADDED: '&cNie jestes dodany do tej działki!'
+PG_NOPERM: '&cNie masz uprawnien do tej komendy!'
+PG_RELOADED: '&cPrzeladowano!'
+PG_CONSOLE: '&cNie mozesz uzyc tej komendy przez konsole.'

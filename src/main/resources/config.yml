@@ -1,0 +1,7 @@
+# PG v${project.version}
+# Copyright (c) 2018, Toranktto
+# All rights reserved.
+
+# Level divider (without the rest!)
+# e.g. 1234 (points) / 100 (levelDivider) = 123 (level)
+levelDivider: 100
